@@ -78,14 +78,14 @@ pip install openai
 -- echo $env:DEEPSEEK_API_KEY
 ```
 3. ```md
-配置完成后，程序会通过以下代码读取 API Key （代码在 text.processor.py 脚本中体现）：
+配置完成后，程序会通过以下代码读取 API Key （代码在 text_processor.py 脚本中体现）：
 
 ```python
 import os
 api_key = os.environ.get("DEEPSEEK_API_KEY") #请将个人的api key 可以加入到环境变量中
 ```
 ## 6. 运行方法以及结果
-在此之前请确保已经配置好环境变量，sample.txt已经存在。 然后通过 IDE 运行text.processor.py 脚本 即可在控制台中看到输出结果 也可以在设备本地 Powershell 中运行：
+在此之前请确保已经配置好环境变量，sample.txt已经存在。 然后通过 IDE 运行text_processor.py 脚本 即可在控制台中看到输出结果 也可以在设备本地 Powershell 中运行：
 <p align="center">
   <img src="image/run_result.png" width="1000">
   <br>
