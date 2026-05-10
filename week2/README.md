@@ -100,7 +100,7 @@ api_key = os.environ.get("DEEPSEEK_API_KEY") #请将个人的api key 可以加�
 <p align="center">
   <img src="image/powershell_result.png" width="1000">
   <br>
-  <em>图2：PowerShell 运行结果</em>
+  <em>图3：PowerShell 运行结果</em>
 </p>
 
 ## 7. 注意事项总结
