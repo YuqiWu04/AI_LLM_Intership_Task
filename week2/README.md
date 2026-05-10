@@ -77,8 +77,7 @@ pip install openai
 -- 验证你的API Key
 -- echo $env:DEEPSEEK_API_KEY
 ```
-3. ```md
-配置完成后，程序会通过以下代码读取 API Key （代码在 text_processor.py 脚本中体现）：
+3. 配置完成后，程序会通过以下代码读取 API Key （代码在 text_processor.py 脚本中体现）：
 
 ```python
 import os
