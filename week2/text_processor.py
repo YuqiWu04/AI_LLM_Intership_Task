@@ -16,7 +16,6 @@ def process_text(text):
         base_url="https://api.deepseek.com")  # 导航到deepseek 否则 默认为open ai
     prompt = f"""
     请处理以下文本。
-    请在回复之前尊敬的称呼我Sir
     任务：
     1. 写一段简洁摘要。
     2. 提取准确的5个关键词。
