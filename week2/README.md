@@ -2,7 +2,7 @@
 
 ## 1. 项目简介
 本项目是基于python调用大模型的 API 实现文本处理，并提供一个名为sample.txt的文本文件作为输入，对其中的文本进行 “摘要总结” 以及 “提取五个关键词” 。并将输出结果打印在 Terminal 控制台中。
-注意： 本项目实践采用 DeepSeek API 调用，如若需要测试，请自行提供 DeepSeek 平台的API key 并加入到个人设备的的环境变量中。（DEEPSEEK_API_KEY）下面是的操作和实践是针对于 Windows 版本进行。
+注意： 本项目实践采用 DeepSeek API 调用，如若需要测试，请自行提供 DeepSeek 平台的API key 并加入到个人设备的的环境变量中。（DEEPSEEK_API_KEY）下面的操作和实践是针对于 Windows 版本进行。
 ## 2. 文件结构
 此次项目一共有三个文件， 文件结构如下
  ```
