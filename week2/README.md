@@ -1,8 +1,8 @@
 # Python调用大模型API实现文本处理工具脚本
 
 ## 1. 项目简介
-本项目是基于python调用大模型的 API 实现文本处理，并提供一个名为sample.txt的文本文件作为输入，对其中的文本进行 “摘要总结” 以及 “提取五个关键词” 。并将输出结果打印在 Terminal 控制台中。
-注意： 本项目实践采用 DeepSeek API 调用，如若需要测试，请自行提供 DeepSeek 平台的API key 并加入到个人设备的的环境变量中。（DEEPSEEK_API_KEY）下面的操作和实践是针对于 Windows 版本进行。
+本项目是基于 python 调用大模型的 API 实现文本处理，并提供一个名为 sample.txt 的文本文件作为输入，对其中的文本进行 “摘要总结” 以及 “提取五个关键词” 。并将输出结果打印在 Terminal 控制台中。
+注意： 本项目实践采用 DeepSeek API 调用，如若需要测试，请自行提供 DeepSeek 平台的 API key 并加入到个人设备的的环境变量中。（DEEPSEEK_API_KEY）下面的操作和实践是针对于 Windows 版本进行。
 ## 2. 文件结构
 此次项目一共有三个文件， 文件结构如下
  ```
@@ -19,7 +19,7 @@ week2/
 2. 已注册 DeepSeek 开发平台账号
 3. 已经获取了 DeepSeek 账号的 API Key （并拥有足够的 Token 量）
 4. 本项目使用 OpenAI Python SDK 调用 DeepSeek API。已安装 openai Python SDK
-5. 本项目运行环境为 Pycharm IDE （设备本地 Powershell 运行也可）
+5. 本项目运行环境为 PyCharm IDE （设备本地 PowerShell 运行也可）
 ## 4. 安装依赖
 本项目脚本需要进行 python 的导入库如下：
 ```python
@@ -84,13 +84,13 @@ import os
 api_key = os.environ.get("DEEPSEEK_API_KEY") #请将个人的api key 可以加入到环境变量中
 ```
 ## 6. 运行方法以及结果
-在此之前请确保已经配置好环境变量，sample.txt已经存在。 然后通过 IDE 运行text_processor.py 脚本 即可在控制台中看到输出结果 也可以在设备本地 Powershell 中运行：
+在此之前请确保已经配置好环境变量，sample.txt已经存在。 然后通过 IDE 运行 text_processor.py 脚本 即可在控制台中看到输出结果 也可以在设备本地 Powershell 中运行：
 <p align="center">
   <img src="image/run_result.png" width="1000">
   <br>
   <em>图2：IDE 运行结果</em>
 </p>
-注意在设备本地 Powershell 中运行时要将目录移动到项目目录下：
+注意在设备本地 PowerShell 中运行时要将目录移动到项目目录下：
 
 ```azure
 -- cd 你的目标目录
