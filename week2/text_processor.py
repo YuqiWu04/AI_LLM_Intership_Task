@@ -25,11 +25,7 @@ def process_text(text):
     输出格式如下：
     总结：
     关键词：
-    
-    
-    
-    
-    
+
     """
     response = client.chat.completions.create(
         model="deepseek-v4-flash",
