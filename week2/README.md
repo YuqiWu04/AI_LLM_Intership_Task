@@ -84,16 +84,20 @@ import os
 api_key = os.environ.get("DEEPSEEK_API_KEY") #请将个人的api key 可以加入到环境变量中
 ```
 ## 6. 运行方法以及结果
-在此之前请确保已经配置好环境变量，sample.txt已经存在。 然后通过 IDE 运行 text_processor.py 脚本 即可在控制台中看到输出结果 也可以在设备本地 Powershell 中运行：
+在此之前请确保已经配置好环境变量，sample.txt已经存在。 然后通过 IDE 运行 text_processor.py 脚本 即可在控制台中看到输出结果 也可以在设备本地 Powershell / CMD 中运行：
 <p align="center">
   <img src="image/run_result.png" width="1000">
   <br>
   <em>图2：IDE 运行结果</em>
 </p>
-注意在设备本地 PowerShell 中运行时要将目录移动到项目目录下：
+注意在设备本地 PowerShell / CMD 中运行时要将目录移动到项目目录下：
 
 ```azure
 -- cd 你的目标目录
+```
+使用以下指令运行脚本：
+```bash
+python text_processor.py
 ```
 
 <p align="center">
