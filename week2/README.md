@@ -54,7 +54,7 @@ pip install openai
 <p align="center">
   <img src="image/pip_open_ai_result.png" width="1000">
   <br>
-  <em>图1：pip open AI 指令输出结果</em>
+  <em>图1：pip install openai 指令输出结果</em>
 </p>
 
 ## 5. 配置API Key
