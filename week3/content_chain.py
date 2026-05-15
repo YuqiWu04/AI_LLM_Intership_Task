@@ -41,7 +41,9 @@ def main():
     topic = input("请输入你想要的主题：")
     llm_model = get_model()
     title_response = get_title_chain(llm_model).invoke({"topic": topic})
-    content_response = get_content_chain(llm_model).invoke({"title": title_response.content})
+    titles_text = title_response.content
+    first_title = titles_text.splitlines()[0]
+    content_response = get_content_chain(llm_model).invoke({"title": first_title})
     print(f"{title_response.text}\n正文：{content_response.content}")
 
 if __name__ == "__main__":
