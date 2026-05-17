@@ -21,10 +21,10 @@ README.md             # 项目说明
  ```
 ## 3. 环境要求
 1. Python 版本（>=3.8）
-2. 依赖库：
-langchain 
-langchain-openai 
-openai
+2. 依赖库：  
+langchain  
+langchain-openai  
+openai  
 - 安装命令：
 ```bash
 # PyCharm IDE terminal 终端运行即可
